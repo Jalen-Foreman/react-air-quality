@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
+import LocationForm from './components/LocationForm'
 import './App.css';
 
 function App() {
+  const [quality, setQuality] = useState();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <nav>
+        <Link to="/">Home|</Link>
+        <Link to="/PM">What is a Pariculate Matter (PM)?|</Link>
+        <Link to="/contact">Contact|</Link>
+        <Link to="/about">About</Link>
+      </nav>
+        <LocationForm />
+      <main></main>
     </div>
   );
 }
