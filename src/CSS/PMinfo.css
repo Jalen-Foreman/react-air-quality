@@ -1,0 +1,11 @@
+.PMimage {
+    max-width: 650px;
+}
+
+.PMtext {
+    font-size: 25px;
+    font-family: PMinfo;
+    color: rgb(241, 19, 223);
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgba(129, 25, 170, 0.952);
+}

@@ -1,3 +1,16 @@
+
+ @font-face {
+    font-family: 'airFont';
+    src: url('./fonts/kingthingsbloone.ttf');
+  }
+  @font-face {
+    font-family: 'PMinfo';
+    src: url('./fonts/ArchivoNarrow-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'airText';
+    src: url(./fonts/KingthingsKurllie-Wy0nA.ttf);
+  }
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

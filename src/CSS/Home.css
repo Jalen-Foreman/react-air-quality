@@ -1,0 +1,26 @@
+.airText {
+    text-align: center;
+     font-family: airFont;
+     color: rgba(223, 18, 212, 0.877);
+     -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(63, 1, 207);
+}
+
+.regular {
+
+    font-family: PMinfo;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(241, 19, 223);
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgba(129, 25, 170, 0.952);
+}
+
+.linkLocation {
+    display: flex;
+    justify-content: center;
+    font-family: PMinfo;
+    font-weight: bold;
+    font-size: 30px;
+}

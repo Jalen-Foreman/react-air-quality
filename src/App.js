@@ -1,12 +1,11 @@
 import React, {useState} from 'react';
 import { Link, Route } from 'react-router-dom';
-import LocationData from './components/LocationData';
 import LocationForm from './components/LocationForm';
 import Contact from './components/Contact';
 import About from './components/About';
 import Home from './components/Home'
 import PMinfo from './components/PMinfo';
-import './App.css';
+import './CSS/App.css';
 
 
 
@@ -16,11 +15,11 @@ function App() {
 
   return (
 		<div>
-			<nav>
-				<Link to='/'>Home|</Link>
-				<Link to='/PM'>What is a Pariculate Matter (PM)?|</Link>
-				<Link to='/contact'>Contact|</Link>
-				<Link to='/about'>About|</Link>
+			<nav className='navBar'>
+				<Link className='navBar-option' to='/'>Home</Link>
+				<Link className='navBar-option' to='/PM'>What is a Pariculate Matter (PM)?</Link>
+				<Link className='navBar-option' to='/contact'>Contact</Link>
+				<Link className='navBar-option' to='/about'>About</Link>
 			</nav>
 			
 			<main>

@@ -1,0 +1,26 @@
+
+html {
+  background-image: url(../3490460.jpg);
+  background-size: 100% 1110px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color:rgba(85, 83, 204, 0.459);
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navBar-option {
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+}
+
+.PMinfo {
+
+}
