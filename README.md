@@ -34,3 +34,9 @@ REACT, CSS, JAVASCRIPT
 ## Unsolved problems and hurdles overcame
 
 Unsolved problems that i have yet to complete is making the search bar guess what your looking for. I would have had to add a Google locater API within my project. Hurdles I have overcame were getting the information to display on the page when I would search it in the search bar.
+
+## Installing
+
+# Run npm i or npm i --force
+# Get app in browser by running npm start
+# Run app on localhost
