@@ -37,6 +37,11 @@ Unsolved problems that i have yet to complete is making the search bar guess wha
 
 ## Installing
 
-# Run npm i or npm i --force
-# Get app in browser by running npm start
-# Run app on localhost
+# `npm i`
+
+ Run npm i or npm i --force
+
+# `npm start`
+
+ Get app in browser by running npm start
+ Run app on localhost
