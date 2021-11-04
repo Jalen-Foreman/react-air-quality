@@ -1,5 +1,16 @@
 # React-Air-Quality
 
+## Installing
+
+# `npm i`
+
+ Run npm i or npm i --force
+
+# `npm start`
+
+ Get app in browser by running npm start.
+ Run app on localhost.
+
 ## MVP
 Users should be able to enter one of my hardcoded locations and receive information about that location's air quality.
 
@@ -35,13 +46,4 @@ REACT, CSS, JAVASCRIPT
 
 Unsolved problems that i have yet to complete is making the search bar guess what your looking for. I would have had to add a Google locater API within my project. Hurdles I have overcame were getting the information to display on the page when I would search it in the search bar.
 
-## Installing
 
-# `npm i`
-
- Run npm i or npm i --force
-
-# `npm start`
-
- Get app in browser by running npm start
- Run app on localhost
