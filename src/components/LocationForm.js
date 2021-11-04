@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import LocationInfo from './LocationInfo';
 import '../CSS/LocationInfo.css';
 
+
 const LocationForm = ({quality, setQuality}) => {
 	
 const [input, setInput] = useState('');
@@ -16,7 +17,7 @@ const handleChange = (e) => {
     e.preventDefault();
 	setError(false);
     const url = `https://api.waqi.info/feed/${input}/?token=`;
-		const apiKey = '8714cf838565c017607ac8aa97bafce5fb5c20aa';	
+		const apiKey = process.env.REACT_APP_APIKEY;	
 			fetch(url + apiKey)
 				.then((res) => res.json())
 				.then((res) => {
